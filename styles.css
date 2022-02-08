@@ -2,12 +2,42 @@
   font-family: Arial;
 }
 
-header {
+h1 {
   text-align: center;
 }
 
 .container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.shapes {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+.image-box {
+  border: 8px solid black;
+  margin: 10px;
+  height: auto;
+  width: 600px;
+}
+
+p {
+  padding: 10px;
+}
+
+.rect:hover {
+  fill: #000;
+}
+
+.circ:hover {
+  fill: rgb(133, 30, 119);
+}
+
+.credits {
+  display: table;
+  margin: 0 auto;
 }
